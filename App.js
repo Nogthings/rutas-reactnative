@@ -75,7 +75,7 @@ const GooglePlacesInput = () => {
           fetchDetails={true}
           onPress={handleOriginSelect}
           query={{
-            key: 'AIzaSyC4N7WTCJt1H-kmDA9gOldz_bJbtk-zmDo',
+            key: 'Tu_key_de_Google_api',
             language: 'en',
           }}
           styles={{
@@ -93,7 +93,7 @@ const GooglePlacesInput = () => {
           fetchDetails={true}
           onPress={handleDestinationSelect}
           query={{
-            key: 'AIzaSyC4N7WTCJt1H-kmDA9gOldz_bJbtk-zmDo',
+            key: 'Tu_key_de_Google_api',
             language: 'en',
           }}
           styles={{
@@ -134,7 +134,7 @@ const GooglePlacesInput = () => {
         <MapViewDirections
           origin={origin}
           destination={destination}
-          apikey='AIzaSyDh-u7X4k-FwzkipuogQdo0s-JfEs6kvhI'
+          apikey='Tu_key_de_Google_api'
           strokeColor='#008db9'
           strokeWidth={5}
         />
